@@ -1,0 +1,31 @@
+body {
+    background: url(../images/back.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.resim {
+    width: 80%;
+    cursor: pointer;
+}
+
+.text-back {
+    background-color: rgba(104, 254, 226, 0.5);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5%;
+    font-size: 18px;
+}
+
+.table {
+    background-color: rgba(248, 122, 177, 0.5);
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.middle {
+    padding-top: 25px;
+}

@@ -32,9 +32,11 @@ $(".resim").on({
         $("#total").text(total)
         if (total === goal_number){
             win++
+            $("#result").text("You Won!")
             new_game()
         }else if (total>goal_number) {
             lose++
+            $("#result").text("You Lose!")
             new_game()
         }
     }
